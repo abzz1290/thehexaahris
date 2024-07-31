@@ -64,24 +64,24 @@ import UserListView from "pages/Users/ListView";
 import UserGridView from "pages/Users/GridView";
 
 // Ui element
-import UiAlert from "pages/Components/UIElement/UiAlert";
-import UiAvatar from "pages/Components/UIElement/UIAvatar";
-import UiButtons from "pages/Components/UIElement/UiButtons";
-import UIDrawer from "pages/Components/UIElement/Drawer";
-import UiModal from "pages/Components/UIElement/Modal";
-import UiLabel from "pages/Components/UIElement/UILabel";
-import UiCards from "pages/Components/UIElement/UiCards";
-import UiCollapse from "pages/Components/UIElement/UiCollapse";
-import UiCountdown from "pages/Components/UIElement/UiCountdown";
-import UiDropdown from "pages/Components/UIElement/UiDropdown";
-import UiGallery from "pages/Components/UIElement/UiGallery";
-import UiLists from "pages/Components/UIElement/UiLists";
-import UiNotification from "pages/Components/UIElement/UiNotification";
-import UiSpinners from "pages/Components/UIElement/UiSpinners";
-import UITimeline from "pages/Components/UIElement/UiTimeline";
-import UiProgressBar from "pages/Components/UIElement/UiProgressBar";
-import UITooltip from "pages/Components/UIElement/UiTooltip";
-import UiVideo from "pages/Components/UIElement/UiVideo";
+// import UiAlert from "pages/Components/UIElement/UiAlert";
+// import UiAvatar from "pages/Components/UIElement/UIAvatar";
+// import UiButtons from "pages/Components/UIElement/UiButtons";
+// import UIDrawer from "pages/Components/UIElement/Drawer";
+// import UiModal from "pages/Components/UIElement/Modal";
+// import UiLabel from "pages/Components/UIElement/UILabel";
+// import UiCards from "pages/Components/UIElement/UiCards";
+// import UiCollapse from "pages/Components/UIElement/UiCollapse";
+// import UiCountdown from "pages/Components/UIElement/UiCountdown";
+// import UiDropdown from "pages/Components/UIElement/UiDropdown";
+// import UiGallery from "pages/Components/UIElement/UiGallery";
+// import UiLists from "pages/Components/UIElement/UiLists";
+// import UiNotification from "pages/Components/UIElement/UiNotification";
+// import UiSpinners from "pages/Components/UIElement/UiSpinners";
+// import UITimeline from "pages/Components/UIElement/UiTimeline";
+// import UiProgressBar from "pages/Components/UIElement/UiProgressBar";
+// import UITooltip from "pages/Components/UIElement/UiTooltip";
+// import UiVideo from "pages/Components/UIElement/UiVideo";
 
 // plugins
 import PSimpleBar from "pages/Components/Plugins/Simplebar";
@@ -116,8 +116,8 @@ import BasicTable from "pages/Components/Table/Basic";
 import ReactDataTable from "pages/Components/Table/ReactTable";
 import RemixIcon from "pages/Components/Icons/Remix";
 import LucidIcon from "pages/Components/Icons/Lucide";
-import MapsGoogle from "pages/Components/MapsGoogle";
-import MapsLeaflet from "pages/Components/MapsLeaflet";
+// import MapsGoogle from "pages/Components/MapsGoogle";
+// import MapsLeaflet from "pages/Components/MapsLeaflet";
 
 //Charts
 import AreaCharts from "pages/ApexCharts/AreaCharts/index";
@@ -218,24 +218,24 @@ const authProtectedRoutes: Array<RouteObject> = [
   // { path: "/dashboards-social", component: SocialMediaDashboard },
 
   // Ui Element
-  { path: "/ui-alerts", component: UiAlert },
-  { path: "/ui-avatar", component: UiAvatar },
-  { path: "/ui-buttons", component: UiButtons },
-  { path: "/ui-label", component: UiLabel },
-  { path: "/ui-cards", component: UiCards },
-  { path: "/ui-collapse", component: UiCollapse },
-  { path: "/ui-countdown", component: UiCountdown },
-  { path: "/ui-drawer", component: UIDrawer },
-  { path: "/ui-dropdown", component: UiDropdown },
-  { path: "/ui-gallery", component: UiGallery },
-  { path: "/ui-lists", component: UiLists },
-  { path: "/ui-notification", component: UiNotification },
-  { path: "/ui-modal", component: UiModal },
-  { path: "/ui-spinners", component: UiSpinners },
-  { path: "/ui-timeline", component: UITimeline },
-  { path: "/ui-progress-bar", component: UiProgressBar },
-  { path: "/ui-tooltip", component: UITooltip },
-  { path: "/ui-video", component: UiVideo },
+  // { path: "/ui-alerts", component: UiAlert },
+  // { path: "/ui-avatar", component: UiAvatar },
+  // { path: "/ui-buttons", component: UiButtons },
+  // { path: "/ui-label", component: UiLabel },
+  // { path: "/ui-cards", component: UiCards },
+  // { path: "/ui-collapse", component: UiCollapse },
+  // { path: "/ui-countdown", component: UiCountdown },
+  // { path: "/ui-drawer", component: UIDrawer },
+  // { path: "/ui-dropdown", component: UiDropdown },
+  // { path: "/ui-gallery", component: UiGallery },
+  // { path: "/ui-lists", component: UiLists },
+  // { path: "/ui-notification", component: UiNotification },
+  // { path: "/ui-modal", component: UiModal },
+  // { path: "/ui-spinners", component: UiSpinners },
+  // { path: "/ui-timeline", component: UITimeline },
+  // { path: "/ui-progress-bar", component: UiProgressBar },
+  // { path: "/ui-tooltip", component: UITooltip },
+  // { path: "/ui-video", component: UiVideo },
 
   // plugins
   { path: "/plugins-simplebar", component: PSimpleBar },
@@ -276,8 +276,8 @@ const authProtectedRoutes: Array<RouteObject> = [
   { path: "/icons-lucide", component: LucidIcon },
 
   // Map
-  { path: "/maps-google", component: MapsGoogle },
-  { path: "/maps-leaflet", component: MapsLeaflet },
+  // { path: "/maps-google", component: MapsGoogle },
+  // { path: "/maps-leaflet", component: MapsLeaflet },
 
 
   //Charts
