@@ -8,7 +8,7 @@ import { getEmployees, updateLeaveSettings } from 'slices/thunk';
 const LeaveSettings = () => {
     const dispatch = useDispatch<any>();
 
-    // Selector to get employee data
+   
     const selectEmployeeData = createSelector(
         (state: any) => state.EmployeeManagement || {}, 
         (state) => ({
@@ -21,7 +21,7 @@ const LeaveSettings = () => {
     const [leaveSettings, setLeaveSettings] = useState<any[]>([]);
 
     useEffect(() => {
-        dispatch(getEmployees()); // Fetch employee data
+        dispatch(getEmployees()); 
     }, [dispatch]);
 
     useEffect(() => {

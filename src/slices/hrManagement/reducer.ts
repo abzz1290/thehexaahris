@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// import { getEmployee } from 'slices/thunk';
 import { createSlice } from "@reduxjs/toolkit";
 import {
     getEmployee,
@@ -31,8 +33,11 @@ import {
     getAttendance,
     getMainAttendance,
     getLeaveManageEmployee,
-    getPayments
+    getPayments,
+    getEmployees,
+    updateLeaveSettings,
 } from './thunk';
+
 
 export const initialState = {
     employeelist: [],

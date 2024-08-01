@@ -250,6 +250,13 @@ const menuData: any = [
             link: "/apps-hr-create-leave",
             parentId: "leavesmanage",
           },
+          {
+            id: "test",
+            label: "Leave Setting",
+            icon: <FlaskConical />,
+            link: "/LeaveSettings",
+            parentId: "leavesmanage",
+          },
         ],
       },
       {
@@ -336,13 +343,7 @@ const menuData: any = [
     link: "/apps-notes",
     parentId: 2,
   },
-  {
-    id: "test",
-    label: "Leave Setting",
-    icon: <FlaskConical />,
-    link: "/LeaveSettings",
-    parentId: 2,
-  },
+  
   // {
   //     id: 'social',
   //     label: 'Social',
