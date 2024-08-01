@@ -126,6 +126,9 @@ export const getEmployee = () => api.get(url.GET_EMPLOYEE, null);
 export const addEmployee = (data: any) => api.create(url.ADD_EMPLOYEE, data);
 export const updateEmployee = (data: any) => api.update(url.UPDATE_EMPLOYEE, data);
 export const deleteEmployee = (data: any) => api.delete(url.DELETE_EMPLOYEE, { headers: { data } });
+export const updateLeaveSettings = (data: any) => api.update(url.UPDATE_LEAVE_SETTINGS, data);
+export const getEmployees = () => api.get(url.GET_EMPLOYEES, null);
+
 
 // Holidays
 export const getHolidays = () => api.get(url.GET_HOLIDAYS, null);

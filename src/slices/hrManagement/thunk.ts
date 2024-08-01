@@ -32,7 +32,9 @@ import {
     getAttendance as getAttendanceApi,
     getMainAttendance as getMainAttendanceApi,
     getLeaveManageEmployee as getLeaveManageEmployeeApi,
-    getPayments as getPaymentsApi
+    getPayments as getPaymentsApi,
+    getEmployees as getEmployeesApi,
+    // updateLeaveSettings as updateLeaveSettingsApi,
 } from "../../helpers/fakebackend_helper";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -282,6 +284,41 @@ export const deleteLeaveManageHR = createAsyncThunk("hrManagement/deleteLeaveMan
         return error;
     }
 });
+//leave setting start
+export const getLeaveSettings = createAsyncThunk("hrManagement/getLeaveSettings", async () => {
+    try {
+        const response = getLeaveManageHRApi();
+        return response;
+    } catch (error) {
+        toast.error("Failed to fetch leave settings", { autoClose: 2000 });
+        return error;
+    }
+});
+
+export const updateLeaveSettings = createAsyncThunk("hrManagement/updateLeaveSettings", async (leaveSettings: any) => {
+    try {
+        const response = updateLeaveManageHRApi(leaveSettings);
+        const data = await response;
+        toast.success("Leave settings updated successfully", { autoClose: 2000 });
+        return data;
+    } catch (error) {
+        toast.error("Failed to update leave settings", { autoClose: 2000 });
+        return error;
+    }
+});
+
+// Define the thunk for getEmployees
+export const getEmployees = createAsyncThunk("hrManagement/getEmployees", async () => {
+    try {
+        const response = await getEmployeesApi();
+        return response.data; // Assuming the API response has data property
+    } catch (error) {
+        toast.error("Failed to fetch employees", { autoClose: 2000 });
+        throw error;
+    }
+});
+
+//leave setting end
 
 export const getEmployeeSalary = createAsyncThunk("hrManagement/getEmployeeSalary", async () => {
     try {

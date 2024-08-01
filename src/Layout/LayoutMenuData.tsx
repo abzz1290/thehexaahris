@@ -338,9 +338,9 @@ const menuData: any = [
   },
   {
     id: "test",
-    label: "Testpage",
+    label: "Leave Setting",
     icon: <FlaskConical />,
-    link: "/TestPage",
+    link: "/LeaveSettings",
     parentId: 2,
   },
   // {

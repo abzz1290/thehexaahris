@@ -163,3 +163,11 @@ export const DELETE_USER_GRID = "/delete-usergrid";
 
 
 
+
+export function UPDATE_LEAVE_SETTINGS(UPDATE_LEAVE_SETTINGS: any, data: any) {
+  throw new Error("Function not implemented.");
+}
+export function GET_EMPLOYEES(GET_EMPLOYEES: any, arg1: null) {
+  throw new Error("Function not implemented.");
+}
+
