@@ -2,8 +2,8 @@ import React from 'react';
 import BreadCrumb from 'Common/BreadCrumb';
 
 // Images
-import logoSm from "assets/images/hexaalogo.jpg";
-import signature from "assets/images/signature.png";
+import logoSm from "assets/images/hexaalogo2.png";
+import signature from "assets/images/hexaalogo2.png";
 
 const Payslip = () => {
 
@@ -13,7 +13,7 @@ const Payslip = () => {
             <div className="grid grid-cols-1 2xl:grid-cols-12">
                 <div className="relative card 2xl:col-span-8 2xl:col-start-3">
                     <div className="p-8">
-                        <div className="absolute top-0 ltr:right-0 rtl:left-0 opacity-30">
+                        <div className="absolute top-10 ltr:right-10 rtl:left-10 w-56 h-56">
                             <img src={logoSm} alt="" />
                         </div>
                         <div className="text-center">

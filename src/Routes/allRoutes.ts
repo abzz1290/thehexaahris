@@ -196,8 +196,8 @@ import Settings from "pages/Pages/Settings";
 import Pricing from "pages/Pages/Pricing";
 import Faqs from "pages/Pages/Faqs";
 import ContactUs from "pages/Pages/ContactUs";
-// import TestPage from "pages/LeaveManagement/LeaveSettings";
-import LeaveSettings from "pages/LeaveManagement/LeaveSettings";
+import LeaveSettings from 'pages/LeaveManagement/LeaveSettings';
+
 // import index from "pages/testpage";
 
 interface RouteObject {

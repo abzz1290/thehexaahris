@@ -13,7 +13,8 @@
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "pages/*": ["pages/*"] // Alias for pages directory
     },
     "moduleResolution": "node",
     "resolveJsonModule": true,
